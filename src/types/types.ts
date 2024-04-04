@@ -24,3 +24,9 @@ export type CommentsType = {
 	content: string;
 	created_at: Date;
 };
+
+export type CountryType = {
+	id: string;
+	name: string;
+	timezones: string[];
+};
